@@ -1,0 +1,22 @@
+{
+  "name": "11ty-lit-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && eleventy",
+    "start": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "glob": "^8.0.3",
+    "lit": "^2.4.0",
+    "tailwind-lit-rollup-plugin": "github:jeremyc2/tailwind-lit-rollup-plugin",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.4"
+  }
+}
